@@ -1,28 +1,45 @@
 const sidebar = {
-  'route-one': [
+  repository: [
     {
-      title: '目录一',
+      title: '简介',
       collapsable: false,
-      children: ['/route-one/', '/route-one/readme1', '/route-one/readme2'],
+      children: ['/repository/'],
     },
     {
-      title: '目录二',
+      title: 'Git 学习笔记',
       collapsable: false,
-      children: ['/route-one/readme3', '/route-one/readme4'],
+      children: [
+        '/repository/gitStudyNote/',
+        '/repository/gitStudyNote/note1',
+        '/repository/gitStudyNote/note2',
+        '/repository/gitStudyNote/note3',
+        '/repository/gitStudyNote/note4',
+      ],
     },
   ],
-  'route-two': [
+  jianshu: [
     {
-      title: '目录一',
+      title: '简介',
       collapsable: false,
-      children: ['/route-two/', '/route-two/readme1', '/route-two/readme2'],
+      children: ['/jianshu/'],
+    },
+    {
+      title: 'Git 学习笔记',
+      collapsable: false,
+      children: [
+        '/jianshu/gitStudyNote/',
+        '/jianshu/gitStudyNote/note1',
+        '/jianshu/gitStudyNote/note2',
+        '/jianshu/gitStudyNote/note3',
+        '/jianshu/gitStudyNote/note4',
+      ],
     },
   ],
 }
 
 module.exports = {
-  title: 'Blog',
-  description: '我的个人网站',
+  title: "Peng's KnowledgeBase",
+  description: '我的个人知识库',
   head: [
     // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -36,16 +53,22 @@ module.exports = {
     logo: '/logo.JPG',
     nav: [
       // 导航栏配置
-      { text: '导航一', link: '/route-one/' },
-      { text: '导航二', link: '/route-two/' },
+      { text: '知识库', link: '/repository/' },
+      {
+        text: '简书',
+        items: [
+          { text: '简书文章', link: '/jianshu/' },
+          { text: '我的简书', link: 'https://www.jianshu.com/u/b40b0585d2b1' },
+        ],
+      },
       { text: '外链', link: 'https://baidu.com' },
     ],
     sidebarDepth: 2, // 侧边栏显示2级
     // sidebar: 'auto', // 侧边栏配置
     sidebar: {
       collapsable: false,
-      '/route-one/': sidebar['route-one'],
-      '/route-two/': sidebar['route-two'],
+      '/repository/': sidebar['repository'],
+      '/jianshu/': sidebar['jianshu'],
     },
   },
 }
