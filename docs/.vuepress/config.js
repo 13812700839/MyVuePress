@@ -1,10 +1,5 @@
 const sidebar = {
-  repository: [
-    {
-      title: '简介',
-      collapsable: false,
-      children: ['/repository/'],
-    },
+  gitStudyNote: [
     {
       title: 'Git 学习笔记',
       collapsable: false,
@@ -14,24 +9,6 @@ const sidebar = {
         '/repository/gitStudyNote/note2',
         '/repository/gitStudyNote/note3',
         '/repository/gitStudyNote/note4',
-      ],
-    },
-  ],
-  jianshu: [
-    {
-      title: '简介',
-      collapsable: false,
-      children: ['/jianshu/'],
-    },
-    {
-      title: 'Git 学习笔记',
-      collapsable: false,
-      children: [
-        '/jianshu/gitStudyNote/',
-        '/jianshu/gitStudyNote/note1',
-        '/jianshu/gitStudyNote/note2',
-        '/jianshu/gitStudyNote/note3',
-        '/jianshu/gitStudyNote/note4',
       ],
     },
   ],
@@ -53,22 +30,37 @@ module.exports = {
     logo: '/logo.JPG',
     nav: [
       // 导航栏配置
-      { text: '知识库', link: '/repository/' },
       {
-        text: '简书',
+        text: '知识库',
+        items: [{ text: 'Git 学习笔记', link: '/repository/gitStudyNote/' }],
+      },
+      {
+        text: '外链',
         items: [
-          { text: '简书文章', link: '/jianshu/' },
-          { text: '我的简书', link: 'https://www.jianshu.com/u/b40b0585d2b1' },
+          { text: '简书', link: 'https://www.jianshu.com/u/b40b0585d2b1' },
+          { text: 'Github', link: 'https://github.com/13812700839/MyVuePress' },
         ],
       },
-      { text: '外链', link: 'https://baidu.com' },
     ],
     sidebarDepth: 2, // 侧边栏显示2级
     // sidebar: 'auto', // 侧边栏配置
     sidebar: {
       collapsable: false,
-      '/repository/': sidebar['repository'],
-      '/jianshu/': sidebar['jianshu'],
+      '/repository/gitStudyNote/': sidebar['gitStudyNote'],
     },
+    // Boolean | Object, 默认值是 undefined.
+    updatePopup: true,
+    // 以下为可选的 "Edit this page" 链接选项
+
+    // 如果你的文档和项目位于不同仓库：
+    // docsRepo: 'vuejs/vuepress',
+    // 如果你的文档不在仓库的根目录下：
+    // docsDir: 'docs',
+    // 如果你的文档在某个特定的分支（默认是 'master' 分支）：
+    docsBranch: 'gh-pages',
+    // 默认为 false，设置为 true 来启用
+    editLinks: true,
+    // 自定义编辑链接的文本。默认是 "Edit this page"
+    editLinkText: '帮助我们改进页面内容！',
   },
 }
