@@ -27,7 +27,7 @@ module.exports = {
     lineNumbers: false, // 代码块显示行号
   },
   themeConfig: {
-    logo: '/logo.JPG',
+    logo: '/logo.jpg',
     nav: [
       // 导航栏配置
       {
