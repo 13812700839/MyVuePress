@@ -22,12 +22,12 @@ Windows版本下载地址：[https://github.com/microsoftarchive/redis/releases]
 redis-server.exe redis.windows.conf
 ```
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-b628c860b8a298bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note3-1.png)
 
 
 打开Redis解压后的目录中的redis-cli.exe，运行redis客户端，上一个窗口不能关闭
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-fb4ed3c38684f891.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note3-2.png)
 
 
 使用临时服务安装，不会出现在Windows服务中

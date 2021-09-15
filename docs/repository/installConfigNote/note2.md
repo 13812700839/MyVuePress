@@ -24,7 +24,7 @@ npm config set prefix "D:\project\tools\node-v14.16.1-win-x64\node_global"
 npm config set cache "D:\project\tools\node-v14.16.1-win-x64\node_cache"
 ```
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-e664cb2f5582b924.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note2-1.png)
 
 **注意：引号内的路径根据自己的具体路径进行修改**
 
@@ -36,14 +36,14 @@ npm config set cache "D:\project\tools\node-v14.16.1-win-x64\node_cache"
 
 检查node版本，输入命令node –v
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-de22f82458877384.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note2-2.png)
 
 
 ### 3. 安装全模块
 
 输入命令npm install express –g
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-edffa2e072eca4f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note2-3.png)
 
 ## 三、测试运行
 
@@ -51,14 +51,14 @@ npm config set cache "D:\project\tools\node-v14.16.1-win-x64\node_cache"
 
 输入命令express –t ejs demo
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-d4c84576a882ed24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note2-4.png)
 
 
 安装依赖，运行项目
 
 输入命令cd demo，npm install，npm start
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-729fd2bbab6f0f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note2-5.png)
 
 
 > 2021年06月24日发于简书 [文章地址](https://www.jianshu.com/p/e3e000c67c81)

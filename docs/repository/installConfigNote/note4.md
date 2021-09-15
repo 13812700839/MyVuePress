@@ -28,7 +28,7 @@ RabbitMQ压缩包下载后解压到指定目录下
 
 打开命令行，输入erl
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-b80b85aca49c424f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-1.png)
 
 Erlang配置完成
 
@@ -42,21 +42,21 @@ Erlang配置完成
 
 打开命令行输入rabbitmqctl status
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-c2fcf5409fbb4b11.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-2.png)
 
 
 说明rabbitMQ未启动
 
 安装插件，输入命令rabbitmq-plugins.bat enable rabbitmq_management
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-20e14ed99eea1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-3.png)
 
 
 出现该界面则安装成功
 
 若出现问题如下
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-1daf5d521eb8daaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-4.png)
 
 
 解决方法：?将 C:\Users\Lenovo\.erlang.cookie 同步至
@@ -69,24 +69,24 @@ C:\Windows\System32\config\systemprofile\.erlang.cookie?
 
 输入命令rabbitmq-server.bat
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-afce43b7868f2456.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-5.png)
 
 
 rabbitmq启动成功，浏览器中[http://localhost:15672](http://localhost:15672/)进行访问
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-220ba09dea0256a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-6.png)
 
 
 输入用户名：guest，密码：guest进入控制台
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-d2bab63139cd82ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-7.png)
 
 
 输入命令rabbitmqctl status
 
-![image.png](https://upload-images.jianshu.io/upload_images/23708684-52af6f2998f27ced.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-8.png)
 
 
 RabbitMQ部署完成
 
-> 2021年07月03日发于简书 [文章地址](https://www.jianshu.com/p/ca829a56f00d)
+> 2021年07月03日发于简书 [文章地址](https://www.jianshu.com/p/c5d7481c6c51)
