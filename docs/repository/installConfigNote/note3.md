@@ -76,4 +76,5 @@ redis-server.exe?--service-uninstall --Service-name RedisServer1
 
 使用自定义服务安装，可以重命名服务名并会出现在Windows服务中
 
-> 2021年07月02日发于简书 [文章地址](https://www.jianshu.com/p/ca829a56f00d)
+> 2021年07月02日发于简书 [文章地址](https://www.jianshu.com/p/ca829a56f00d)  
+> 2021年07月28日发于知乎 [文章地址](https://zhuanlan.zhihu.com/p/389705449)

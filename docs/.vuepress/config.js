@@ -68,6 +68,11 @@ module.exports = {
         text: '外链',
         items: [
           { text: '简书', link: 'https://www.jianshu.com/u/b40b0585d2b1' },
+          { text: 'CSDN', link: 'https://blog.csdn.net/qq_46106320' },
+          {
+            text: '知乎',
+            link: 'https://www.zhihu.com/people/hua-shang-53-90',
+          },
           {
             text: 'Github',
             link: 'https://www.github.com/13812700839/MyVuePress',

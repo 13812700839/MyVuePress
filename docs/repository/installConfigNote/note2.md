@@ -61,4 +61,6 @@ npm config set cache "D:\project\tools\node-v14.16.1-win-x64\node_cache"
 ![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note2-5.png)
 
 
-> 2021年06月24日发于简书 [文章地址](https://www.jianshu.com/p/e3e000c67c81)
+> 2021年06月24日发于简书 [文章地址](https://www.jianshu.com/p/e3e000c67c81)  
+> 2021年07月19日发于知乎 [文章地址](https://zhuanlan.zhihu.com/p/389704886)  
+> 2021年09月15日发于CSDN [文章地址](https://blog.csdn.net/qq_46106320/article/details/120306455)
