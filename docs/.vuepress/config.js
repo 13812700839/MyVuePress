@@ -29,13 +29,14 @@ const sidebar = {
     {
       title: '前端学习笔记',
       collapsable: false,
-      children: [
-        '/repository/frontStudyNote/',
-        '/repository/frontStudyNote/note1',
-        '/repository/frontStudyNote/note2',
-        '/repository/frontStudyNote/note3',
-        '/repository/frontStudyNote/note4',
-      ],
+      children: ['/repository/frontStudyNote/'],
+    },
+  ],
+  linkSet: [
+    {
+      title: '目录',
+      collapsable: false,
+      children: ['/linkSet/', '/linkSet/link'],
     },
   ],
 }
@@ -59,13 +60,18 @@ module.exports = {
       {
         text: '知识库',
         items: [
+          // { text: '目录', link: '/repository/' },
           { text: 'Git 学习笔记', link: '/repository/gitStudyNote/' },
           { text: '软件安装配置', link: '/repository/installConfigNote/' },
           { text: '前端学习笔记', link: '/repository/frontStudyNote/' },
         ],
       },
       {
-        text: '外链',
+        text: '网址导航',
+        items: [{ text: '目录', link: '/linkSet/' }],
+      },
+      {
+        text: '博客主页',
         items: [
           { text: '简书', link: 'https://www.jianshu.com/u/b40b0585d2b1' },
           { text: 'CSDN', link: 'https://blog.csdn.net/qq_46106320' },
@@ -73,11 +79,11 @@ module.exports = {
             text: '知乎',
             link: 'https://www.zhihu.com/people/hua-shang-53-90',
           },
-          {
-            text: 'Github',
-            link: 'https://www.github.com/13812700839/MyVuePress',
-          },
         ],
+      },
+      {
+        text: 'Github',
+        link: 'https://www.github.com/13812700839/MyVuePress',
       },
     ],
     sidebarDepth: 2, // 侧边栏显示2级
@@ -87,6 +93,7 @@ module.exports = {
       '/repository/gitStudyNote/': sidebar['gitStudyNote'],
       '/repository/installConfigNote/': sidebar['installConfigNote'],
       '/repository/frontStudyNote/': sidebar['frontStudyNote'],
+      '/linkSet/': sidebar['linkSet'],
     },
     // Boolean | Object, 默认值是 undefined.
     updatePopup: true,

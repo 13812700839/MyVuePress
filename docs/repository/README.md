@@ -1,4 +1,4 @@
-# 简介
+# 目录
 
 [Git 学习笔记](/repository/gitStudyNote/)
 

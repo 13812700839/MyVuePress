@@ -1,4 +1,4 @@
-# 介绍
+# 目录
 
 [MongoDB的安装配置（ZIP版）](/MyVuePress/repository/installConfigNote/note1)
 

@@ -86,7 +86,6 @@ rabbitmq启动成功，浏览器中[http://localhost:15672](http://localhost:156
 
 ![image.png](https://13812700839.github.io/MyImageBed/images/repository/installConfigNote/note4-8.png)
 
-
 RabbitMQ部署完成
 
 > 2021年07月03日发于简书 [文章地址](https://www.jianshu.com/p/c5d7481c6c51)  

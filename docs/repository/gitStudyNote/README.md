@@ -1,4 +1,4 @@
-# 介绍
+# 目录
 
 [Linux 中 Git 学习笔记（一）](/MyVuePress/repository/gitStudyNote/note1)
 
